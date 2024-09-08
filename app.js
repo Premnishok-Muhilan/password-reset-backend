@@ -19,7 +19,8 @@ const app = express();
 // UNCOMMENTED CODE - - - - - - - - - - - - - -
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://delicate-salmiakki-625e68.netlify.app",
     credentials: true, //access-control-allow-credentials:true
     optionSuccessStatus: 200,
   })
