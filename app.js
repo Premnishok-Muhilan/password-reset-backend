@@ -21,7 +21,7 @@ app.use(
   cors({
     // origin: "http://localhost:5173",
     // origin: "https://delicate-salmiakki-625e68.netlify.app",
-    origin: "https://fantastic-elf-a6e68f.netlify.app"
+    origin: "https://fantastic-elf-a6e68f.netlify.app",
     credentials: true, //access-control-allow-credentials:true
     optionSuccessStatus: 200,
   })
